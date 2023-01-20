@@ -11,7 +11,7 @@ function Card(props){
     return (
         <section className="card">
                {badgeText && <div className="card--badge">{badgeText}</div>}
-                <img className="cardPhoto" src={`../images/${props.coverImg}`} alt="athlete photo" ></img >
+                <img className="cardPhoto" src={`./images/${props.coverImg}`} alt="athlete photo" ></img >
                 <div>
                     <div className="cardText">
                         <img src={starIcon} alt="start Icon"></img>

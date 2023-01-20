@@ -1,4 +1,4 @@
-import airbnbLogo from "../public/airbnb.png"
+import airbnbLogo from "../images/airbnb.png"
 import React from "react";
 
 function Nav() {

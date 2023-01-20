@@ -1,5 +1,5 @@
 import React from "react";
-import groupPhoto from "../public/groupPhoto.png"
+import groupPhoto from "../images/groupPhoto.png"
 
 function Hero(){
   return (

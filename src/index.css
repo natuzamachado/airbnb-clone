@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+#root {
+  width: inherit;
+  height: inherit;
+}
+
 html, body{
   margin: 0px;
   padding: 0px;
@@ -14,13 +19,13 @@ body{
 }
 nav {
    width: 100%;
-   height: 70px;
-   padding: 22px 30px;
+   height: 55px;
+   padding: 18px 16px;
    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
 nav > img{
-  height: 25px;
+  height: 20px;
 }
 
 .content {
@@ -34,28 +39,28 @@ nav > img{
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 110%;
   /* or 18px */
   color: #000000;
   
 }
 .content > img {
-  max-width: 80%;
+  max-width: 75%;
   height: auto;
   padding-bottom: 3%;
   padding-top: 5%;
 }
 
 .description > p{
- max-width: 330px;
+ max-width: 280px;
  margin: 0px;
  margin-top: 0px;
- padding-bottom: 17%;
+ padding-bottom: 10%;
  color: #222222;
 }
 .description > h1 {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 .description{
   display: grid;
@@ -76,29 +81,29 @@ nav > img{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
-  font-size: 12px;
+  font-size:9px;
   line-height: 110%;
   /* identical to box height, or 13px */  
   color: #918E9B;
 }
 .cardText > p { 
   margin: 0px;
-  margin-left: 2px;
-  margin-right: 2px;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 h1 {
-  font-size: 36px;
+  font-size:24px;
   padding: 5px;
   padding-left: 0px;
 }
 #star-rate {
   color: #222222;
   font-weight: 300;
-  font-size: 12px;
-  margin-left: 4px;
+  font-size: 9px;
+  margin-left: 2px;
 }
 .cardText > img {
-  width: 14px;
+  width: 10px;
   height: auto;
   margin-left: 4px;
   margin-bottom: 2px;
@@ -114,7 +119,7 @@ h1 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 8px;
   line-height: 110%;
   padding-bottom:4%;
   padding-left: 4px;
@@ -136,29 +141,28 @@ h1 {
   margin-top: 7px;
 }
 .cardPhoto {
-  width: 176px;
-  height: 235px;
+  width: 126px;
+  height: 168px;
   border-radius: 9px;
   
 }
 .card--badge {
   position: absolute;
   background-color: white;
-  padding: 5px 7px;
+  padding: 4px 5px;
   border-radius: 5px;
-  margin-top: 12%;
+  margin-top: 18%;
   margin-left: 2%;
   font-family: "Poppins";
   font-weight: bold;
-  font-size: 0.5em;
+  font-size: 7px;
 }
 .cards {
   display: flex;
   margin-left: 5%;
   justify-content:flex-start;
   flex-wrap: nowrap;
-  gap: 20px;
-  overflow-x: auto;
-  max-width: 550px;
-  
+  gap: 10px;
+  max-width: 400px;
+  overflow-x: auto;  
 }

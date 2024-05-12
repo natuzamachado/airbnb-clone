@@ -1,4 +1,5 @@
 # airbnb-clone
+**this page was designed for mobiles, note that on computer browsers it will not be properly formatted**
 This airbnb clone is a react project to practice writing components and props.
 
 This UI template was from figma (link: https://www.figma.com/file/4YjrygFEXOcDp9AAnVFv7o/Airbnb-Experiences?node-id=0%3A1&t=Lx5a2f1sENEba55D-0).

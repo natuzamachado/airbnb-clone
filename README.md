@@ -1,5 +1,5 @@
 # airbnb-clone
-**This page was designed for mobiles, note that on computer browsers it will not be properly formatted**
+**This page was designed for mobiles, note that on desktops it will not be properly formatted**
 
 The app was deployed through netlify and is hosted in the following link: https://whimsical-conkies-e6d306.netlify.app/
 
